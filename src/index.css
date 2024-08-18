@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: gray;
 }
 
 h1 {
@@ -65,4 +66,41 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.newsletter{
+  background-color: white;
+  color: black;
+  padding: 50px;
+  border-radius: 30px;
+  width: 700px;
+}
+h1{
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+.input-section input{
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  outline: 0;
+  width: 70%;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.input-section{
+  width: 100%;
+}
+.input-section button{
+  height: 50px;
+}
+.agreement{
+  display: flex;
+}
+.agreement input{
+  height: 50px;
 }
